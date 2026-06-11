@@ -1,0 +1,1136 @@
+[
+  {
+    "term": "Pareto最优",
+    "term_en": "Pareto Optimality",
+    "domain": "数学",
+    "definition": "多目标优化中的一种状态，此时不可能在不使任何其他目标变差的情况下使至少一个目标变好。",
+    "synonyms": [{"term": "效率前沿", "term_en": "Efficient Frontier", "domain": "经济学"}, {"term": "权衡取舍", "term_en": "Precision-Recall Tradeoff", "domain": "AI/ML"}]
+  },
+  {
+    "term": "效率前沿",
+    "term_en": "Efficient Frontier",
+    "domain": "经济学",
+    "definition": "在给定的风险水平下能提供最大预期收益的资产组合集合。",
+    "synonyms": [{"term": "Pareto最优", "term_en": "Pareto Optimality", "domain": "数学"}, {"term": "权衡取舍", "term_en": "Precision-Recall Tradeoff", "domain": "AI/ML"}]
+  },
+  {
+    "term": "权衡取舍",
+    "term_en": "Precision-Recall Tradeoff",
+    "domain": "AI/ML",
+    "definition": "机器学习模型中精确率与召回率之间不可兼得的博弈均衡关系。",
+    "synonyms": [{"term": "Pareto最优", "term_en": "Pareto Optimality", "domain": "数学"}, {"term": "效率前沿", "term_en": "Efficient Frontier", "domain": "经济学"}]
+  },
+  {
+    "term": "动力系统反馈",
+    "term_en": "Dynamical System Feedback",
+    "domain": "数学",
+    "definition": "系统的输出引回到输入中，从而改变系统后续行为的机制。",
+    "synonyms": [{"term": "市场自调节机制", "term_en": "Market Self-Regulation", "domain": "经济学"}, {"term": "反馈调节", "term_en": "Feedback Loop", "domain": "AI/ML"}]
+  },
+  {
+    "term": "市场自调节机制",
+    "term_en": "Market Self-Regulation",
+    "domain": "经济学",
+    "definition": "价格机制和供求关系自发引导资源配置回归均衡的过程。",
+    "synonyms": [{"term": "动力系统反馈", "term_en": "Dynamical System Feedback", "domain": "数学"}, {"term": "反馈调节", "term_en": "Feedback Loop", "domain": "AI/ML"}]
+  },
+  {
+    "term": "反馈调节",
+    "term_en": "Feedback Loop",
+    "domain": "AI/ML",
+    "definition": "将模型的输出或环境奖励再次作为输入，驱动模型策略迭代优化的闭环过程。",
+    "synonyms": [{"term": "动力系统反馈", "term_en": "Dynamical System Feedback", "domain": "数学"}, {"term": "市场自调节机制", "term_en": "Market Self-Regulation", "domain": "经济学"}]
+  },
+  {
+    "term": "约束优化",
+    "term_en": "Constrained Optimization",
+    "domain": "数学",
+    "definition": "在一组等式或不等式约束条件的限制下，寻找目标函数极值的问题。",
+    "synonyms": [{"term": "预算约束", "term_en": "Budget Constraint", "domain": "经济学"}, {"term": "资源约束", "term_en": "Compute/Parameter Budget", "domain": "AI/ML"}]
+  },
+  {
+    "term": "预算约束",
+    "term_en": "Budget Constraint",
+    "domain": "经济学",
+    "definition": "消费者或企业在既定收入和价格限制下所能购买的商品或资源组合的上限。",
+    "synonyms": [{"term": "约束优化", "term_en": "Constrained Optimization", "domain": "数学"}, {"term": "资源约束", "term_en": "Compute/Parameter Budget", "domain": "AI/ML"}]
+  },
+  {
+    "term": "资源约束",
+    "term_en": "Compute/Parameter Budget",
+    "domain": "AI/ML",
+    "definition": "大模型训练或推理中受到算力（FLOPs）、显存或模型参数量的上限硬性限制。",
+    "synonyms": [{"term": "约束优化", "term_en": "Constrained Optimization", "domain": "数学"}, {"term": "预算约束", "term_en": "Budget Constraint", "domain": "经济学"}]
+  },
+  {
+    "term": "图搜索",
+    "term_en": "Graph Search",
+    "domain": "数学",
+    "definition": "在图结构中遍历节点以寻找从源节点到目标节点满足某种特定性质路径的算法。",
+    "synonyms": [{"term": "最优决策路径", "term_en": "Optimal Decision Path", "domain": "经济学"}, {"term": "搜索最优路径", "term_en": "A* Search", "domain": "AI/ML"}]
+  },
+  {
+    "term": "最优决策路径",
+    "term_en": "Optimal Decision Path",
+    "domain": "经济学",
+    "definition": "多阶段跨期决策中，经济主体在每一时间节点作出的使得总效用最大化的路径选择。",
+    "synonyms": [{"term": "图搜索", "term_en": "Graph Search", "domain": "数学"}, {"term": "搜索最优路径", "term_en": "A* Search", "domain": "AI/ML"}]
+  },
+  {
+    "term": "搜索最优路径",
+    "term_en": "A* Search",
+    "domain": "AI/ML",
+    "definition": "一种经典的启发式路径搜索算法，通过结合实际代价和估算剩余代价来高效寻找最优路径。",
+    "synonyms": [{"term": "图搜索", "term_en": "Graph Search", "domain": "数学"}, {"term": "最优决策路径", "term_en": "Optimal Decision Path", "domain": "经济学"}]
+  },
+  {
+    "term": "邻域算子",
+    "term_en": "Neighborhood Operator",
+    "domain": "数学",
+    "definition": "根据空间中某点周围邻域内其他点的信息来计算并更新该点状态的映射算子。",
+    "synonyms": [{"term": "区域经济效应", "term_en": "Regional Economic Spillover", "domain": "经济学"}, {"term": "局部信息聚合", "term_en": "Convolution", "domain": "AI/ML"}]
+  },
+  {
+    "term": "区域经济效应",
+    "term_en": "Regional Economic Spillover",
+    "domain": "经济学",
+    "definition": "某一地理区域内的经济活动或政策对周边邻近区域产生的辐射或外溢影响。",
+    "synonyms": [{"term": "邻域算子", "term_en": "Neighborhood Operator", "domain": "数学"}, {"term": "局部信息聚合", "term_en": "Convolution", "domain": "AI/ML"}]
+  },
+  {
+    "term": "局部信息聚合",
+    "term_en": "Convolution",
+    "domain": "AI/ML",
+    "definition": "通过局部感受野和权重共享，提取输入数据中局部空间或时间特征的数学操作。",
+    "synonyms": [{"term": "邻域算子", "term_en": "Neighborhood Operator", "domain": "数学"}, {"term": "区域经济效应", "term_en": "Regional Economic Spillover", "domain": "经济学"}]
+  },
+  {
+    "term": "非局部算子",
+    "term_en": "Non-local Operator",
+    "domain": "数学",
+    "definition": "计算某一点的值时需要用到全域或远距离其他点信息的数学算子。",
+    "synonyms": [{"term": "预期传导", "term_en": "Expectation Transmission", "domain": "经济学"}, {"term": "长程依赖", "term_en": "Self-Attention", "domain": "AI/ML"}]
+  },
+  {
+    "term": "预期传导",
+    "term_en": "Expectation Transmission",
+    "domain": "经济学",
+    "definition": "远期政策信号通过改变市场主体的跨期预期，从而在宏观经济网络中产生长远影响的现象。",
+    "synonyms": [{"term": "非局部算子", "term_en": "Non-local Operator", "domain": "数学"}, {"term": "长程依赖", "term_en": "Self-Attention", "domain": "AI/ML"}]
+  },
+  {
+    "term": "长程依赖",
+    "term_en": "Self-Attention",
+    "domain": "AI/ML",
+    "definition": "通过计算序列中任意两个位置之间的关联权重，从而无视距离捕获全局上下文联系的机制。",
+    "synonyms": [{"term": "非局部算子", "term_en": "Non-local Operator", "domain": "数学"}, {"term": "预期传导", "term_en": "Expectation Transmission", "domain": "经济学"}]
+  },
+  {
+    "term": "降维映射",
+    "term_en": "Dimensionality Reduction Mapping",
+    "domain": "数学",
+    "definition": "将高维空间中的数据点映射到低维空间中，并尽可能保留原始关键几何拓扑结构的变换。",
+    "synonyms": [{"term": "信息摘要", "term_en": "Information Summary", "domain": "经济学"}, {"term": "信息压缩", "term_en": "AutoEncoder", "domain": "AI/ML"}]
+  },
+  {
+    "term": "信息摘要",
+    "term_en": "Information Summary",
+    "domain": "经济学",
+    "definition": "剔除纷繁宏观指标中的市场噪音，提炼出能反映经济本质趋势的核心经济指数（如CPI、PMI）。",
+    "synonyms": [{"term": "降维映射", "term_en": "Dimensionality Reduction Mapping", "domain": "数学"}, {"term": "信息压缩", "term_en": "AutoEncoder", "domain": "AI/ML"}]
+  },
+  {
+    "term": "信息压缩",
+    "term_en": "AutoEncoder",
+    "domain": "AI/ML",
+    "definition": "一种通过无监督学习将输入压缩成低维隐变量（瓶颈层），再解码重建原始输入的数据降维网络。",
+    "synonyms": [{"term": "降维映射", "term_en": "Dimensionality Reduction Mapping", "domain": "数学"}, {"term": "信息摘要", "term_en": "Information Summary", "domain": "经济学"}]
+  },
+  {
+    "term": "集体动力学",
+    "term_en": "Collective Dynamics",
+    "domain": "数学",
+    "definition": "研究由大量相互作用的个体所组成的复杂系统在时间演化中所表现出的宏观涌现行为。",
+    "synonyms": [{"term": "羊群效应", "term_en": "Herd Effect", "domain": "经济学"}, {"term": "群体协同", "term_en": "Swarm Intelligence", "domain": "AI/ML"}]
+  },
+  {
+    "term": "羊群效应",
+    "term_en": "Herd Effect",
+    "domain": "经济学",
+    "definition": "金融市场上由于信息不对称或从众心理，投资者盲目跟随多数人进行买卖的非理性现象。",
+    "synonyms": [{"term": "集体动力学", "term_en": "Collective Dynamics", "domain": "数学"}, {"term": "群体协同", "term_en": "Swarm Intelligence", "domain": "AI/ML"}]
+  },
+  {
+    "term": "群体协同",
+    "term_en": "Swarm Intelligence",
+    "domain": "AI/ML",
+    "definition": "无中心控制的简易个体通过局部交互，在宏观上表现出分布式智能和高级协作的优化算法（如粒子群）。",
+    "synonyms": [{"term": "集体动力学", "term_en": "Collective Dynamics", "domain": "数学"}, {"term": "羊群效应", "term_en": "Herd Effect", "domain": "经济学"}]
+  },
+  {
+    "term": "动态规划",
+    "term_en": "Dynamic Programming",
+    "domain": "数学",
+    "definition": "将多阶段决策过程转化为一系列单阶段问题，利用贝尔曼方程求解各子问题以获得全局最优解的方法。",
+    "synonyms": [{"term": "生命周期决策", "term_en": "Life-Cycle Decision", "domain": "经济学"}, {"term": "多阶段决策", "term_en": "Reinforcement Learning", "domain": "AI/ML"}]
+  },
+  {
+    "term": "生命周期决策",
+    "term_en": "Life-Cycle Decision",
+    "domain": "经济学",
+    "definition": "理性的消费者在整个人生周期（青年、中年、老年）中，跨期配置消费、储蓄和劳动的最优化行为。",
+    "synonyms": [{"term": "动态规划", "term_en": "Dynamic Programming", "domain": "数学"}, {"term": "多阶段决策", "term_en": "Reinforcement Learning", "domain": "AI/ML"}]
+  },
+  {
+    "term": "多阶段决策",
+    "term_en": "Reinforcement Learning",
+    "domain": "AI/ML",
+    "definition": "智能体通过与不确定环境交互，根据环境反馈的奖励/惩罚信号，学习最大化长期累积回报的策略。",
+    "synonyms": [{"term": "动态规划", "term_en": "Dynamic Programming", "domain": "数学"}, {"term": "生命周期决策", "term_en": "Life-Cycle Decision", "domain": "经济学"}]
+  },
+  {
+    "term": "随机逼近",
+    "term_en": "Stochastic Approximation",
+    "domain": "数学",
+    "definition": "在无法获得精确函数值或存在随机噪声干扰的情况下，通过迭代计算逐步逼近函数零点或极值的方法。",
+    "synonyms": [{"term": "市场探索", "term_en": "Market Exploration", "domain": "经济学"}, {"term": "试错学习", "term_en": "Exploration", "domain": "AI/ML"}]
+  },
+  {
+    "term": "市场探索",
+    "term_en": "Market Exploration",
+    "domain": "经济学",
+    "definition": "企业在面临不确定性时，通过小规模推出新产品或调研，试探消费者隐藏真实偏好的试错过程。",
+    "synonyms": [{"term": "随机逼近", "term_en": "Stochastic Approximation", "domain": "数学"}, {"term": "试错学习", "term_en": "Exploration", "domain": "AI/ML"}]
+  },
+  {
+    "term": "试错学习",
+    "term_en": "Exploration",
+    "domain": "AI/ML",
+    "definition": "强化学习中智能体选择先前未尝试过的动作，以期望发现更高潜在收益的行为。",
+    "synonyms": [{"term": "随机逼近", "term_en": "Stochastic Approximation", "domain": "数学"}, {"term": "市场探索", "term_en": "Market Exploration", "domain": "经济学"}]
+  },
+  {
+    "term": "梯度收敛",
+    "term_en": "Gradient Convergence",
+    "domain": "数学",
+    "definition": "迭代序列沿着负梯度方向平稳移动，最终一阶导数（梯度）趋近于零并停留在驻点的性质。",
+    "synonyms": [{"term": "经验策略", "term_en": "Empirical Policy", "domain": "经济学"}, {"term": "利用已有知识", "term_en": "Exploitation", "domain": "AI/ML"}]
+  },
+  {
+    "term": "经验策略",
+    "term_en": "Empirical Policy",
+    "domain": "经济学",
+    "definition": "企业或消费者依据历史上行之有效的惯性经验行事，不再花费额外成本搜寻新信息的保守决策。",
+    "synonyms": [{"term": "梯度收敛", "term_en": "Gradient Convergence", "domain": "数学"}, {"term": "利用已有知识", "term_en": "Exploitation", "domain": "AI/ML"}]
+  },
+  {
+    "term": "利用已有知识",
+    "term_en": "Exploitation",
+    "domain": "AI/ML",
+    "definition": "强化学习中智能体倾向于选择当前已知期望回报最高（即最优经验）的动作以压榨收益。",
+    "synonyms": [{"term": "梯度收敛", "term_en": "Gradient Convergence", "domain": "数学"}, {"term": "经验策略", "term_en": "Empirical Policy", "domain": "经济学"}]
+  },
+  {
+    "term": "抽样理论",
+    "term_en": "Sampling Theory",
+    "domain": "数学",
+    "definition": "研究如何从总体中抽取部分样本，并利用样本统计量对总体参数进行统计推断的数学理论。",
+    "synonyms": [{"term": "市场调查样本", "term_en": "Market Survey Sample", "domain": "经济学"}, {"term": "样本代表性", "term_en": "Training Distribution", "domain": "AI/ML"}]
+  },
+  {
+    "term": "市场调查样本",
+    "term_en": "Market Survey Sample",
+    "domain": "经济学",
+    "definition": "为研究整体市场需求，按照特定抽样规则筛选出的具有典型群体经济行为特征的消费者子集。",
+    "synonyms": [{"term": "抽样理论", "term_en": "Sampling Theory", "domain": "数学"}, {"term": "样本代表性", "term_en": "Training Distribution", "domain": "AI/ML"}]
+  },
+  {
+    "term": "样本代表性",
+    "term_en": "Training Distribution",
+    "domain": "AI/ML",
+    "definition": "训练数据的概率分布是否真实完整地覆盖了模型在实际推理中会遇到的真实世界数据全貌。",
+    "synonyms": [{"term": "抽样理论", "term_en": "Sampling Theory", "domain": "数学"}, {"term": "市场调查样本", "term_en": "Market Survey Sample", "domain": "经济学"}]
+  },
+  {
+    "term": "鲁棒优化",
+    "term_en": "Robust Optimization",
+    "domain": "数学",
+    "definition": "一种应对输入参数不确定性的数学优化方法，要求最坏参数情景下的解依然可行且达到次优。",
+    "synonyms": [{"term": "风险对冲", "term_en": "Risk Hedging", "domain": "经济学"}, {"term": "极端结果控制", "term_en": "Adversarial Training", "domain": "AI/ML"}]
+  },
+  {
+    "term": "风险对冲",
+    "term_en": "Risk Hedging",
+    "domain": "经济学",
+    "definition": "通过买入或构建与现有资产收益率负相关的投资组合，以防范并抵消极端宏观市场下行的损失风险。",
+    "synonyms": [{"term": "鲁棒优化", "term_en": "Robust Optimization", "domain": "数学"}, {"term": "极端结果控制", "term_en": "Adversarial Training", "domain": "AI/ML"}]
+  },
+  {
+    "term": "极端结果控制",
+    "term_en": "Adversarial Training",
+    "domain": "AI/ML",
+    "definition": "在模型训练中主动加入带有欺骗性的极端对抗样本（噪声），以提升神经网络抗扰动和泛化能力。",
+    "synonyms": [{"term": "鲁棒优化", "term_en": "Robust Optimization", "domain": "数学"}, {"term": "风险对冲", "term_en": "Risk Hedging", "domain": "经济学"}]
+  },
+  {
+    "term": "特征选择",
+    "term_en": "Feature Selection",
+    "domain": "数学",
+    "definition": "从原始多维变量中挑选出子集，去除无关、共线自变量以简化统计矩阵模型的数学手段。",
+    "synonyms": [{"term": "指标筛选", "term_en": "Indicator Screening", "domain": "经济学"}, {"term": "信息筛选", "term_en": "Feature Selection", "domain": "AI/ML"}]
+  },
+  {
+    "term": "指标筛选",
+    "term_en": "Indicator Screening",
+    "domain": "经济学",
+    "definition": "经济分析中通过因果检验或相关性分析，从庞大基本面指标库中提取关键解释指标的过程。",
+    "synonyms": [{"term": "特征选择", "term_en": "Feature Selection", "domain": "数学"}, {"term": "信息筛选", "term_en": "Feature Selection", "domain": "AI/ML"}]
+  },
+  {
+    "term": "信息筛选",
+    "term_en": "Feature Selection",
+    "domain": "AI/ML",
+    "definition": "在数据预处理阶段，挑选对模型预测目标最有贡献的输入特征（特征子集选择），过滤无关噪声。",
+    "synonyms": [{"term": "特征选择", "term_en": "Feature Selection", "domain": "数学"}, {"term": "指标筛选", "term_en": "Indicator Screening", "domain": "经济学"}]
+  },
+  {
+    "term": "聚类分析",
+    "term_en": "Cluster Analysis",
+    "domain": "数学",
+    "definition": "依据高维空间中样本点间的几何距离或紧密程度，将其自发划分为若干个无标签集合的无监督方法。",
+    "synonyms": [{"term": "消费者细分", "term_en": "Customer Segmentation", "domain": "经济学"}, {"term": "相似群体划分", "term_en": "Clustering", "domain": "AI/ML"}]
+  },
+  {
+    "term": "消费者细分",
+    "term_en": "Customer Segmentation",
+    "domain": "经济学",
+    "definition": "根据消费者的收入水平、消费偏好等特征，将其划分为不同特征诉求的子市场的精准营销前提。",
+    "synonyms": [{"term": "聚类分析", "term_en": "Cluster Analysis", "domain": "数学"}, {"term": "相似群体划分", "term_en": "Clustering", "domain": "AI/ML"}]
+  },
+  {
+    "term": "相似群体划分",
+    "term_en": "Clustering",
+    "domain": "AI/ML",
+    "definition": "无监督学习核心任务，依据无标签特征向量的相似度（如K-Means），实现内部紧密、外部疏离的自动聚类。",
+    "synonyms": [{"term": "聚类分析", "term_en": "Cluster Analysis", "domain": "数学"}, {"term": "消费者细分", "term_en": "Customer Segmentation", "domain": "经济学"}]
+  },
+  {
+    "term": "判别分析",
+    "term_en": "Discriminant Analysis",
+    "domain": "数学",
+    "definition": "根据已知的多变量总体特征，建立判别函数，以此判定一个未知标签的样本应当归属于哪一个已有类别的统计方法。",
+    "synonyms": [{"term": "信用评级", "term_en": "Credit Rating", "domain": "经济学"}, {"term": "类别归属判断", "term_en": "Classification", "domain": "AI/ML"}]
+  },
+  {
+    "term": "信用评级",
+    "term_en": "Credit Rating",
+    "domain": "经济学",
+    "definition": "金融机构依据企业的基本面财务指标指标，构建评估方程，将其划分为不同违约风险风险等级（如AAA、AA）的过程。",
+    "synonyms": [{"term": "判别分析", "term_en": "Discriminant Analysis", "domain": "数学"}, {"term": "类别归属判断", "term_en": "Classification", "domain": "AI/ML"}]
+  },
+  {
+    "term": "类别归属判断",
+    "term_en": "Classification",
+    "domain": "AI/ML",
+    "definition": "有监督学习的核心任务，通过多分类或二分类决策边界，判断离散输入的标签归属（如垃圾邮件分类）。",
+    "synonyms": [{"term": "判别分析", "term_en": "Discriminant Analysis", "domain": "数学"}, {"term": "信用评级", "term_en": "Credit Rating", "domain": "经济学"}]
+  },
+  {
+    "term": "回归分析",
+    "term_en": "Regression Analysis",
+    "domain": "数学",
+    "definition": "确定两种或两种以上变量间相互依赖的定量关系的一种统计分析方法。",
+    "synonyms": [{"term": "需求预测", "term_en": "Demand Forecasting", "domain": "经济学"}, {"term": "数值预测", "term_en": "Regression", "domain": "AI/ML"}]
+  },
+  {
+    "term": "需求预测",
+    "term_en": "Demand Forecasting",
+    "domain": "经济学",
+    "definition": "根据历史销售数据和市场价格等自变量，建立经济计量模型来预测未来的市场商品吸纳量。",
+    "synonyms": [{"term": "回归分析", "term_en": "Regression Analysis", "domain": "数学"}, {"term": "数值预测", "term_en": "Regression", "domain": "AI/ML"}]
+  },
+  {
+    "term": "数值预测",
+    "term_en": "Regression",
+    "domain": "AI/ML",
+    "definition": "模型根据连续特征向量输入，通过损失函数反向传播，拟合并输出一个具体、连续的实数数值（如房价预测）。",
+    "synonyms": [{"term": "回归分析", "term_en": "Regression Analysis", "domain": "数学"}, {"term": "需求预测", "term_en": "Demand Forecasting", "domain": "经济学"}]
+  },
+  {
+    "term": "结构方程模型",
+    "term_en": "Structural Equation Modeling",
+    "domain": "数学",
+    "definition": "结合了多元回归、因子分析和路径分析，能够同时探究多变量之间复杂的隐性因果拓扑关系的数学框架。",
+    "synonyms": [{"term": "政策评估", "term_en": "Policy Evaluation", "domain": "经济学"}, {"term": "因果关系识别", "term_en": "Causal Inference", "domain": "AI/ML"}]
+  },
+  {
+    "term": "政策评估",
+    "term_en": "Policy Evaluation",
+    "domain": "经济学",
+    "definition": "应用计量经济学方法（如双重差分法 DID），剥离干扰变量以探究某项政策出台与经济指标变化间的真实关系。",
+    "synonyms": [{"term": "结构方程模型", "term_en": "Structural Equation Modeling", "domain": "数学"}, {"term": "因果关系识别", "term_en": "Causal Inference", "domain": "AI/ML"}]
+  },
+  {
+    "term": "因果关系识别",
+    "term_en": "Causal Inference",
+    "domain": "AI/ML",
+    "definition": "机器学习高级领域，不再停留于表面的“相关性”拟合，而是通过干预或反事实推理，识别特征间的确定因果链路。",
+    "synonyms": [{"term": "结构方程模型", "term_en": "Structural Equation Modeling", "domain": "数学"}, {"term": "政策评估", "term_en": "Policy Evaluation", "domain": "经济学"}]
+  },
+  {
+    "term": "随机控制",
+    "term_en": "Stochastic Control",
+    "domain": "数学",
+    "definition": "在系统状态转移存在不可测的外部随机白噪声扰动下，使系统运行代价期望值最小的最优化控制理论。",
+    "synonyms": [{"term": "金融决策", "term_en": "Financial Decision-Making", "domain": "经济学"}, {"term": "不确定环境决策", "term_en": "MDP", "domain": "AI/ML"}]
+  },
+  {
+    "term": "金融决策",
+    "term_en": "Financial Decision-Making",
+    "domain": "经济学",
+    "definition": "金融投资主体面对未来多变起伏的市场行情，进行风险偏好跨期资产配置的最优组合选择。",
+    "synonyms": [{"term": "随机控制", "term_en": "Stochastic Control", "domain": "数学"}, {"term": "不确定环境决策", "term_en": "MDP", "domain": "AI/ML"}]
+  },
+  {
+    "term": "不确定环境决策",
+    "term_en": "MDP",
+    "domain": "AI/ML",
+    "definition": "马尔可夫决策过程，智能体在一个下一状态仅取决于当前状态和当前动作的不确定动态环境下的最优策略建模。",
+    "synonyms": [{"term": "随机控制", "term_en": "Stochastic Control", "domain": "数学"}, {"term": "金融决策", "term_en": "Financial Decision-Making", "domain": "经济学"}]
+  },
+  {
+    "term": "博弈论",
+    "term_en": "Game Theory",
+    "domain": "数学",
+    "definition": "研究多个独立且理性的决策主体在行为相互作用、信息相互约束的情况下的最优决策均衡策略的数学理论。",
+    "synonyms": [{"term": "竞争市场", "term_en": "Competitive Market", "domain": "经济学"}, {"term": "多主体互动", "term_en": "Multi-Agent Learning", "domain": "AI/ML"}]
+  },
+  {
+    "term": "竞争市场",
+    "term_en": "Competitive Market",
+    "domain": "经济学",
+    "definition": "寡头企业或消费者在信息不完全的市场竞争格局中，根据对手策略调整自身产出与定价以达到市场占有率均衡的博弈生态。",
+    "synonyms": [{"term": "博弈论", "term_en": "Game Theory", "domain": "数学"}, {"term": "多主体互动", "term_en": "Multi-Agent Learning", "domain": "AI/ML"}]
+  },
+  {
+    "term": "多主体互动",
+    "term_en": "Multi-Agent Learning",
+    "domain": "AI/ML",
+    "definition": "多个深度学习智能体在同一个复杂开放环境里并存，相互间存在合作、对抗或共演化的分布式强化学习领域。",
+    "synonyms": [{"term": "博弈论", "term_en": "Game Theory", "domain": "数学"}, {"term": "竞争市场", "term_en": "Competitive Market", "domain": "经济学"}]
+  },
+  {
+    "term": "映射变换",
+    "term_en": "Mapping Transformation",
+    "domain": "数学",
+    "definition": "建立两个数学结构（空间）之间元素对应关系、并保持特定代数或几何空间代数结构特征不变的算子运算。",
+    "synonyms": [{"term": "技术扩散", "term_en": "Technology Diffusion", "domain": "经济学"}, {"term": "知识迁移", "term_en": "Transfer Learning", "domain": "AI/ML"}]
+  },
+  {
+    "term": "技术扩散",
+    "term_en": "Technology Diffusion",
+    "domain": "经济学",
+    "definition": "先进产业技术和生产工艺创新从发源国、核心领先企业逐步辐射并应用到落后国家或其余关联产业的渗透过程。",
+    "synonyms": [{"term": "映射变换", "term_en": "Mapping Transformation", "domain": "数学"}, {"term": "知识迁移", "term_en": "Transfer Learning", "domain": "AI/ML"}]
+  },
+  {
+    "term": "知识迁移",
+    "term_en": "Transfer Learning",
+    "domain": "AI/ML",
+    "definition": "迁移学习，将模型在原先海量源领域（A任务）上习得的底层表征或通用权重，快速无缝迁移应用到新领域的训练策略。",
+    "synonyms": [{"term": "映射变换", "term_en": "Mapping Transformation", "domain": "数学"}, {"term": "技术扩散", "term_en": "Technology Diffusion", "domain": "经济学"}]
+  },
+  {
+    "term": "树结构",
+    "term_en": "Tree Structure",
+    "domain": "数学",
+    "definition": "由节点和边组成的分层非线性数据拓扑结构，其层级间不存在任何闭环回路链路。",
+    "synonyms": [{"term": "企业组织层级", "term_en": "Corporate Hierarchy", "domain": "经济学"}, {"term": "分层结构", "term_en": "Decision Tree", "domain": "AI/ML"}]
+  },
+  {
+    "term": "企业组织层级",
+    "term_en": "Corporate Hierarchy",
+    "domain": "经济学",
+    "definition": "大型现代企业内部由董事会、中层管理人员再到基层员工逐级汇报、层层授权的金字塔式纵向管理权责结构。",
+    "synonyms": [{"term": "树结构", "term_en": "Tree Structure", "domain": "数学"}, {"term": "分层结构", "term_en": "Decision Tree", "domain": "AI/ML"}]
+  },
+  {
+    "term": "分层结构",
+    "term_en": "Decision Tree",
+    "domain": "AI/ML",
+    "definition": "通过在一系列层级分叉节点上进行特征属性分裂决策，最终构建出呈树状结构的分类与回归统计机器学习算法。",
+    "synonyms": [{"term": "树结构", "term_en": "Tree Structure", "domain": "数学"}, {"term": "企业组织层级", "term_en": "Corporate Hierarchy", "domain": "经济学"}]
+  },
+  {
+    "term": "小波分析",
+    "term_en": "Wavelet Analysis",
+    "domain": "数学",
+    "definition": "一种兼具时域和频域局部化时频多尺度分析时变非平稳信号特征的数学处理工具。",
+    "synonyms": [{"term": "宏观-微观分析", "term_en": "Macro-Micro Analysis", "domain": "经济学"}, {"term": "多尺度分析", "term_en": "Feature Pyramid", "domain": "AI/ML"}]
+  },
+  {
+    "term": "宏观-微观分析",
+    "term_en": "Macro-Micro Analysis",
+    "domain": "经济学",
+    "definition": "自上而下审视国家总量宏观经济大势，自下而上精细刻画个体企业或消费者行为的双重颗粒度深度审视方法。",
+    "synonyms": [{"term": "小波分析", "term_en": "Wavelet Analysis", "domain": "数学"}, {"term": "多尺度分析", "term_en": "Feature Pyramid", "domain": "AI/ML"}]
+  },
+  {
+    "term": "多尺度分析",
+    "term_en": "Feature Pyramid",
+    "domain": "AI/ML",
+    "definition": "特征金字塔网络，通过抽取并融合不同空间分辨率和语义颗粒度的特征图，全面捕获不同尺寸物体的局部和全局信息。",
+    "synonyms": [{"term": "小波分析", "term_en": "Wavelet Analysis", "domain": "数学"}, {"term": "宏观-微观分析", "term_en": "Macro-Micro Analysis", "domain": "经济学"}]
+  },
+  {
+    "term": "马尔可夫链扩展",
+    "term_en": "Markov Chain Extension",
+    "domain": "数学",
+    "definition": "研究系统在状态空间中转移时，未来的条件概率分布仅仅由当前状态所决定的离散或连续随机过程演化规律。",
+    "synonyms": [{"term": "锁定效应", "term_en": "Lock-in Effect", "domain": "经济学"}, {"term": "路径依赖", "term_en": "Sequential Modeling", "domain": "AI/ML"}]
+  },
+  {
+    "term": "锁定效应",
+    "term_en": "Lock-in Effect",
+    "domain": "经济学",
+    "definition": "某种特定的制度安排、消费习惯或工业标准因先发历史因素建立后，产生极高沉没成本而难以退出的市场粘性惯性阻力。",
+    "synonyms": [{"term": "马尔可夫链扩展", "term_en": "Markov Chain Extension", "domain": "数学"}, {"term": "路径依赖", "term_en": "Sequential Modeling", "domain": "AI/ML"}]
+  },
+  {
+    "term": "路径依赖",
+    "term_en": "Sequential Modeling",
+    "domain": "AI/ML",
+    "definition": "时序序列建模，模型输出极度依赖历史输入字符或前序状态转移序列的自回归或马尔可夫链式推断过程。",
+    "synonyms": [{"term": "马尔可夫链扩展", "term_en": "Markov Chain Extension", "domain": "数学"}, {"term": "锁定效应", "term_en": "Lock-in Effect", "domain": "经济学"}]
+  },
+  {
+    "term": "状态变量",
+    "term_en": "State Variable",
+    "domain": "数学",
+    "definition": "足以完整刻画和描述一个动力系统在任意给定时间点所处具体物理或数学运动状态的最小核心自变量集合。",
+    "synonyms": [{"term": "历史惯性", "term_en": "Historical Inertia", "domain": "经济学"}, {"term": "记忆保留", "term_en": "LSTM Memory Cell", "domain": "AI/ML"}]
+  },
+  {
+    "term": "历史惯性",
+    "term_en": "Historical Inertia",
+    "domain": "经济学",
+    "definition": "宏观经济体当前的投资、消费与就业基数在受到政策外部冲击时，由于时滞效应仍会顺延原有轨迹运行的经济现象。",
+    "synonyms": [{"term": "状态变量", "term_en": "State Variable", "domain": "数学"}, {"term": "记忆保留", "term_en": "LSTM Memory Cell", "domain": "AI/ML"}]
+  },
+  {
+    "term": "记忆保留",
+    "term_en": "LSTM Memory Cell",
+    "domain": "AI/ML",
+    "definition": "循环神经网络中通过引入专门的遗忘门和细胞状态变量，能够在极长跨度的文本推导中持续保留和选择性遗忘历史记忆的特殊结构。",
+    "synonyms": [{"term": "状态变量", "term_en": "State Variable", "domain": "数学"}, {"term": "历史惯性", "term_en": "Historical Inertia", "domain": "经济学"}]
+  },
+  {
+    "term": "网络扩散模型",
+    "term_en": "Network Diffusion Model",
+    "domain": "数学",
+    "definition": "建立在复杂网络拓扑之上的信息、传染病或动力学行为沿着邻接边向其余节点逐级级联蔓延的概率数理模型。",
+    "synonyms": [{"term": "口碑传播", "term_en": "Word-of-Mouth Effects", "domain": "经济学"}, {"term": "信息传播", "term_en": "Message Passing", "domain": "AI/ML"}]
+  },
+  {
+    "term": "口碑传播",
+    "term_en": "Word-of-Mouth Effects",
+    "domain": "经济学",
+    "definition": "消费者使用某种产品后的真实正面或负面评价，通过社交人际网自发向熟人群体病毒式二次破圈裂变的市场效应。",
+    "synonyms": [{"term": "网络扩散模型", "term_en": "Network Diffusion Model", "domain": "数学"}, {"term": "信息传播", "term_en": "Message Passing", "domain": "AI/ML"}]
+  },
+  {
+    "term": "信息传播",
+    "term_en": "Message Passing",
+    "domain": "AI/ML",
+    "definition": "图神经网络的核心计算机制，每个节点通过沿图局部邻接边聚合其邻居节点的特征向量，从而不断刷新自身高维语义嵌入。",
+    "synonyms": [{"term": "网络扩散模型", "term_en": "Network Diffusion Model", "domain": "数学"}, {"term": "口碑传播", "term_en": "Word-of-Mouth Effects", "domain": "经济学"}]
+  },
+  {
+    "term": "图论",
+    "term_en": "Graph Theory",
+    "domain": "数学",
+    "definition": "以图为研究对象，专门探讨由离散节点（Vertices）和连接节点的边（Edges）所构成的网络拓扑性质的数学分支。",
+    "synonyms": [{"term": "产业网络", "term_en": "Industrial Interdependency Network", "domain": "经济学"}, {"term": "关联关系网络", "term_en": "Graph Neural Network", "domain": "AI/ML"}]
+  },
+  {
+    "term": "产业网络",
+    "term_en": "Industrial Interdependency Network",
+    "domain": "经济学",
+    "definition": "由于供应链和投入产出关系，国民经济各生产部门、上下游企业之间环环相扣所交织而成的错综复杂的系统性网状结构。",
+    "synonyms": [{"term": "图论", "term_en": "Graph Theory", "domain": "数学"}, {"term": "关联关系网络", "term_en": "Graph Neural Network", "domain": "AI/ML"}]
+  },
+  {
+    "term": "关联关系网络",
+    "term_en": "Graph Neural Network",
+    "domain": "AI/ML",
+    "definition": "专门用于直接处理分子结构、社交网络或电商图等复杂非欧几里得空间图结构数据的深度学习网络架构。",
+    "synonyms": [{"term": "图论", "term_en": "Graph Theory", "domain": "数学"}, {"term": "产业网络", "term_en": "Industrial Interdependency Network", "domain": "经济学"}]
+  },
+  {
+    "term": "离群点检测",
+    "term_en": "Outlier Detection",
+    "domain": "数学",
+    "definition": "从既定的数据集矩阵中，识别出其数值分布与绝大多数其余观测样本表现出显著偏离、不符合通用统计规律的个别极值样本的数学方法。",
+    "synonyms": [{"term": "欺诈检测", "term_en": "Fraud Detection", "domain": "经济学"}, {"term": "异常识别", "term_en": "Anomaly Detection", "domain": "AI/ML"}]
+  },
+  {
+    "term": "欺诈检测",
+    "term_en": "Fraud Detection",
+    "domain": "经济学",
+    "definition": "商业银行通过实时监控信用卡流水或交易日志，通过识别异常盗刷高险用户来防范金融违规的防控技术。",
+    "synonyms": [{"term": "离群点检测", "term_en": "Outlier Detection", "domain": "数学"}, {"term": "异常识别", "term_en": "Anomaly Detection", "domain": "AI/ML"}]
+  },
+  {
+    "term": "异常识别",
+    "term_en": "Anomaly Detection",
+    "domain": "AI/ML",
+    "definition": "利用独类支持向量机或孤立森林算法，对极不平衡的数据集自动捕捉极少数反常恶意行为或故障样本的防范技术。",
+    "synonyms": [{"term": "离群点检测", "term_en": "Outlier Detection", "domain": "数学"}, {"term": "欺诈检测", "term_en": "Fraud Detection", "domain": "经济学"}]
+  },
+  {
+    "term": "蒙特卡洛方法",
+    "term_en": "Monte Carlo Method",
+    "domain": "数学",
+    "definition": "借助计算机产生符合特定分布的大规模随机数进行仿真试验，以此计算复杂积分或求解难以推导的数值期望的计算几何方法。",
+    "synonyms": [{"term": "风险模拟", "term_en": "Risk Simulation", "domain": "经济学"}, {"term": "概率采样", "term_en": "MCMC", "domain": "AI/ML"}]
+  },
+  {
+    "term": "风险模拟",
+    "term_en": "Risk Simulation",
+    "domain": "经济学",
+    "definition": "金融工程中对未来衍生品定价或投资组合在极端黑天鹅宏观环境下的跌幅区间进行数万次随机路径压力测试的方法。",
+    "synonyms": [{"term": "蒙特卡洛方法", "term_en": "Monte Carlo Method", "domain": "数学"}, {"term": "概率采样", "term_en": "MCMC", "domain": "AI/ML"}]
+  },
+  {
+    "term": "概率采样",
+    "term_en": "MCMC",
+    "domain": "AI/ML",
+    "definition": "马尔可夫链蒙特卡洛采样，在贝叶斯深度学习大模型中从难以直接计算的复杂高维后验分布中高效抽取有效参数样本的核心算法。",
+    "synonyms": [{"term": "蒙特卡洛方法", "term_en": "Monte Carlo Method", "domain": "数学"}, {"term": "风险模拟", "term_en": "Risk Simulation", "domain": "经济学"}]
+  },
+  {
+    "term": "逻辑推理",
+    "term_en": "Logical Reasoning",
+    "domain": "数学",
+    "definition": "严格遵循命题逻辑、一阶谓词逻辑等形式逻辑规则，从初始公理集合出发进行无漏洞演绎命题证明的严密思维机制。",
+    "synonyms": [{"term": "制度规则", "term_en": "Institutional Rules", "domain": "经济学"}, {"term": "规则归纳", "term_en": "Rule Learning", "domain": "AI/ML"}]
+  },
+  {
+    "term": "制度规则",
+    "term_en": "Institutional Rules",
+    "domain": "经济学",
+    "definition": "新制度经济学中，社会或法律体系为规范微观经济主体经济行为、降低交易费用而强制拟定的成文宪章或产权壁垒规则。",
+    "synonyms": [{"term": "逻辑推理", "term_en": "Logical Reasoning", "domain": "数学"}, {"term": "规则归纳", "term_en": "Rule Learning", "domain": "AI/ML"}]
+  },
+  {
+    "term": "规则归纳",
+    "term_en": "Rule Learning",
+    "domain": "AI/ML",
+    "definition": "符号主义人工智能核心分支，要求系统放弃纯统计概率拟合，而是从训练语料或图谱中提炼出人类可读的 If-Then 确定性规则逻辑链。",
+    "synonyms": [{"term": "逻辑推理", "term_en": "Logical Reasoning", "domain": "数学"}, {"term": "制度规则", "term_en": "Institutional Rules", "domain": "经济学"}]
+  },
+  {
+    "term": "模式识别",
+    "term_en": "Pattern Recognition",
+    "domain": "数学",
+    "definition": "通过数学表征和矩阵运算，自动探寻并识别出纷繁复杂高维数据中隐藏的特定规律性或几何结构的数理分支。",
+    "synonyms": [{"term": "市场结构分析", "term_en": "Market Structure Analysis", "domain": "经济学"}, {"term": "结构发现", "term_en": "Representation Learning", "domain": "AI/ML"}]
+  },
+  {
+    "term": "市场结构分析",
+    "term_en": "Market Structure Analysis",
+    "domain": "经济学",
+    "definition": "产业经济学中通过赫芬达尔指数或集中度分析，精确探明某个垂直行业内部垄断还是自由竞争潜在结构的剖析路径。",
+    "synonyms": [{"term": "模式识别", "term_en": "Pattern Recognition", "domain": "数学"}, {"term": "结构发现", "term_en": "Representation Learning", "domain": "AI/ML"}]
+  },
+  {
+    "term": "结构发现",
+    "term_en": "Representation Learning",
+    "domain": "AI/ML",
+    "definition": "表征学习，利用深度神经网络自动把高维非结构化原始数据转化为低维、高浓缩且富含深层语义特征的隐空间低维实数向量的过程。",
+    "synonyms": [{"term": "模式识别", "term_en": "Pattern Recognition", "domain": "数学"}, {"term": "市场结构分析", "term_en": "Market Structure Analysis", "domain": "经济学"}]
+  },
+  {
+    "term": "渐近性质",
+    "term_en": "Asymptotic Properties",
+    "domain": "数学",
+    "definition": "研究当样本量或者变量维度趋近于无穷大时，统计量或数学算子的极限收敛行为与渐近分布状态的数学规律。",
+    "synonyms": [{"term": "规模经济", "term_en": "Economies of Scale", "domain": "经济学"}, {"term": "规模效应", "term_en": "Scaling Law", "domain": "AI/ML"}]
+  },
+  {
+    "term": "规模经济",
+    "term_en": "Economies of Scale",
+    "domain": "经济学",
+    "definition": "随着企业长期生产制造总规模的不断扩大，单位平摊下来的固定资产研发生产成本自发出现持续下降的良性经济循环现象。",
+    "synonyms": [{"term": "渐近性质", "term_en": "Asymptotic Properties", "domain": "数学"}, {"term": "规模效应", "term_en": "Scaling Law", "domain": "AI/ML"}]
+  },
+  {
+    "term": "规模效应",
+    "term_en": "Scaling Law",
+    "domain": "AI/ML",
+    "definition": "大语言模型（LLM）核心定律：模型的最终上下游泛化性能随着参数量、总训练算力（FLOPs）以及语料规模的指数级扩充呈现幂律平滑提升的规律。",
+    "synonyms": [{"term": "渐近性质", "term_en": "Asymptotic Properties", "domain": "数学"}, {"term": "规模经济", "term_en": "Economies of Scale", "domain": "经济学"}]
+  },
+  {
+    "term": "模型近似",
+    "term_en": "Model Approximation",
+    "domain": "数学",
+    "definition": "用一个计算复杂度低、易于解析求解的简易数学函数去无限逼近并替代另一个极为繁复多维的真实高维目标函数的数学手段。",
+    "synonyms": [{"term": "信息传递", "term_en": "Information Transmission", "domain": "经济学"}, {"term": "知识蒸馏", "term_en": "Knowledge Distillation", "domain": "AI/ML"}]
+  },
+  {
+    "term": "信息传递",
+    "term_en": "Information Transmission",
+    "domain": "经济学",
+    "definition": "信息经济学中，掌握私有信息的内部高层主体通过特定行为（如发放股利、文凭）向信息匮乏的外部市场传导真实资质信号的过程。",
+    "synonyms": [{"term": "模型近似", "term_en": "Model Approximation", "domain": "数学"}, {"term": "知识蒸馏", "term_en": "Knowledge Distillation", "domain": "AI/ML"}]
+  },
+  {
+    "term": "知识蒸馏",
+    "term_en": "Knowledge Distillation",
+    "domain": "AI/ML",
+    "definition": "大模型压缩技术，将参数量庞大、泛化好但推理慢的“教师模型”的软标签输出概率作为指导，训练轻量化“学生模型”的策略。",
+    "synonyms": [{"term": "模型近似", "term_en": "Model Approximation", "domain": "数学"}, {"term": "信息传递", "term_en": "Information Transmission", "domain": "经济学"}]
+  },
+  {
+    "term": "非合作博弈",
+    "term_en": "Non-cooperative Game",
+    "domain": "数学",
+    "definition": "各个博弈主体在决策时完全以自身个体利益最大化为核心，各方之间无法达成具有强制性法律约束力契约的博弈论分支。",
+    "synonyms": [{"term": "寡头竞争", "term_en": "Oligopoly Competition", "domain": "经济学"}, {"term": "竞争与合作", "term_en": "GAN Adversarial Training", "domain": "AI/ML"}]
+  },
+  {
+    "term": "寡头竞争",
+    "term_en": "Oligopoly Competition",
+    "domain": "经济学",
+    "definition": "某垂直产业市场仅由少数几家巨头企业绝对割据把持，每家巨头在决定排产与定价时都会激烈死磕并预判对手死穴的竞争格局。",
+    "synonyms": [{"term": "非合作博弈", "term_en": "Non-cooperative Game", "domain": "数学"}, {"term": "竞争与合作", "term_en": "GAN Adversarial Training", "domain": "AI/ML"}]
+  },
+  {
+    "term": "竞争与合作",
+    "term_en": "GAN Adversarial Training",
+    "domain": "AI/ML",
+    "definition": "生成对抗网络中，生成器（负责伪造逼真数据）与判别器（负责死磕鉴别假货）在纳什均衡驱使下左脚踩右脚共同螺旋升级的对抗机制。",
+    "synonyms": [{"term": "非合作博弈", "term_en": "Non-cooperative Game", "domain": "数学"}, {"term": "寡头竞争", "term_en": "Oligopoly Competition", "domain": "经济学"}]
+  },
+  {
+    "term": "联立方程",
+    "term_en": "Simultaneous Equations",
+    "domain": "数学",
+    "definition": "由多个包含相同未知数的方程所构成的完备方程组，要求寻得一组解向量能够同时完美使所有等式恒成立。",
+    "synonyms": [{"term": "信息披露", "term_en": "Information Disclosure", "domain": "经济学"}, {"term": "信息共享", "term_en": "Parameter Sharing", "domain": "AI/ML"}]
+  },
+  {
+    "term": "信息披露",
+    "term_en": "Information Disclosure",
+    "domain": "经济学",
+    "definition": "上市公司依照证券法监管底线规定，按时向全体股民投资者全面透明强制公开财报以消除市场不透明噪音的行为。",
+    "synonyms": [{"term": "联立方程", "term_en": "Simultaneous Equations", "domain": "数学"}, {"term": "信息共享", "term_en": "Parameter Sharing", "domain": "AI/ML"}]
+  },
+  {
+    "term": "信息共享",
+    "term_en": "Parameter Sharing",
+    "domain": "AI/ML",
+    "definition": "多任务网络或联邦深度学习中，不同的底层子任务网络在特征提取层强制共享同一套权重矩阵，以极大幅度精简计算冗余并防止过拟合的策略。",
+    "synonyms": [{"term": "联立方程", "term_en": "Simultaneous Equations", "domain": "数学"}, {"term": "信息披露", "term_en": "Information Disclosure", "domain": "经济学"}]
+  },
+  {
+    "term": "组合优化",
+    "term_en": "Combinatorial Optimization",
+    "domain": "数学",
+    "definition": "在离散、有限的庞大可行解对象集合中，利用数学排列组合技术和剪枝技巧，高效搜寻能使目标度量达到最优的最优离散解的学科。",
+    "synonyms": [{"term": "投资组合", "term_en": "Portfolio Optimization", "domain": "经济学"}, {"term": "组合决策", "term_en": "Ensemble Model", "domain": "AI/ML"}]
+  },
+  {
+    "term": "投资组合",
+    "term_en": "Portfolio Optimization",
+    "domain": "经济学",
+    "definition": "马科维茨资产配置理论：通过多元化挑选相关系数低的股票、债券构建投资大盘，在同等收益期望下把马科维茨波动方差压到最低的操作。",
+    "synonyms": [{"term": "组合优化", "term_en": "Combinatorial Optimization", "domain": "数学"}, {"term": "组合决策", "term_en": "Ensemble Model", "domain": "AI/ML"}]
+  },
+  {
+    "term": "组合决策",
+    "term_en": "Ensemble Model",
+    "domain": "AI/ML",
+    "definition": "集成学习，通过并行（如随机森林 Bagging）或串行（如 XGBoost Boosting）策略，把一堆简易弱分类器打包成高强度强分类器的机器学习算法。",
+    "synonyms": [{"term": "组合优化", "term_en": "Combinatorial Optimization", "domain": "数学"}, {"term": "投资组合", "term_en": "Portfolio Optimization", "domain": "经济学"}]
+  },
+  {
+    "term": "滤波理论",
+    "term_en": "Filtering Theory",
+    "domain": "数学",
+    "definition": "从带有大量随机测量白噪声和背景波动的观测时序数据中，利用状态转移矩阵推导并还原真实系统未失真物理状态的数理统计分支（如卡尔曼滤波）。",
+    "synonyms": [{"term": "去噪处理", "term_en": "Denoising Handling", "domain": "经济学"}, {"term": "信号提纯", "term_en": "Denoising", "domain": "AI/ML"}]
+  },
+  {
+    "term": "去噪处理",
+    "term_en": "Denoising Handling",
+    "domain": "经济学",
+    "definition": "计量经济学时间序列分析中，使用季节性调整波动或 X-12 差分技术滤除偶然事件噪音，提炼长线真实经济周期的过程。",
+    "synonyms": [{"term": "滤波理论", "term_en": "Filtering Theory", "domain": "数学"}, {"term": "信号提纯", "term_en": "Denoising", "domain": "AI/ML"}]
+  },
+  {
+    "term": "信号提纯",
+    "term_en": "Denoising",
+    "domain": "AI/ML",
+    "definition": "扩散模型（Diffusion Model）核心机制，神经网络通过反向时间步，从纯高斯白噪声矩阵中一步步预测并剔除杂讯，最终还原出高保真多媒体数据的图像生成过程。",
+    "synonyms": [{"term": "滤波理论", "term_en": "Filtering Theory", "domain": "数学"}, {"term": "去噪处理", "term_en": "Denoising Handling", "domain": "经济学"}]
+  },
+  {
+    "term": "多分辨率分析",
+    "term_en": "Multiresolution Analysis",
+    "domain": "数学",
+    "definition": "利用空间嵌套的逼近序列，将函数或希尔伯特空间在不同尺度颗粒度上进行逐层正交分解与逼近的泛函分析手段。",
+    "synonyms": [{"term": "分层决策", "term_en": "Hierarchical Decision-Making", "domain": "经济学"}, {"term": "先粗后细", "term_en": "Coarse-to-Fine Learning", "domain": "AI/ML"}]
+  },
+  {
+    "term": "分层决策",
+    "term_en": "Hierarchical Decision-Making",
+    "domain": "经济学",
+    "definition": "跨国财团在宏观层面先锚定全球各大洲的总体战略投资头寸，再在微观层面细化到具体子公司的运营和设备采购采购的渐进决策体制。",
+    "synonyms": [{"term": "多分辨率分析", "term_en": "Multiresolution Analysis", "domain": "数学"}, {"term": "先粗后细", "term_en": "Coarse-to-Fine Learning", "domain": "AI/ML"}]
+  },
+  {
+    "term": "先粗后细",
+    "term_en": "Coarse-to-Fine Learning",
+    "domain": "AI/ML",
+    "definition": "计算机视觉或大语言模型检索（RAG）常用策略，先用极轻量的简单向量模型做粗暴海选捞出 Top-100，再动用极其繁重的重型神经网络重排（Rerank）出最精确的 Top-5。",
+    "synonyms": [{"term": "多分辨率分析", "term_en": "Multiresolution Analysis", "domain": "数学"}, {"term": "分层决策", "term_en": "Hierarchical Decision-Making", "domain": "经济学"}]
+  },
+  {
+    "term": "灵敏度分析",
+    "term_en": "Sensitivity Analysis",
+    "domain": "数学",
+    "definition": "研究数学模型或数值系统在外部边界自变量参数发生微小扰动偏离时，其最终因变量输出结果偏离和震荡幅度的不确定性评估方法。",
+    "synonyms": [{"term": "政策解释性", "term_en": "Policy Explainability", "domain": "经济学"}, {"term": "模型解释", "term_en": "Explainable AI", "domain": "AI/ML"}]
+  },
+  {
+    "term": "政策解释性",
+    "term_en": "Policy Explainability",
+    "domain": "经济学",
+    "definition": "中央银行向公众全面阐释为何将基准存贷款利率下调 25 个基点，详尽论证该货币调控对通胀和就业传导机制的公众公信力说理报告。",
+    "synonyms": [{"term": "灵敏度分析", "term_en": "Sensitivity Analysis", "domain": "数学"}, {"term": "模型解释", "term_en": "Explainable AI", "domain": "AI/ML"}]
+  },
+  {
+    "term": "模型解释",
+    "term_en": "Explainable AI",
+    "domain": "AI/ML",
+    "definition": "可解释性人工智能（XAI），利用 SHAP 归因矩阵或特征激活显著性图，将复杂的黑盒深度神经网络的决策依据翻译给人类看的可视化技术。",
+    "synonyms": [{"term": "灵敏度分析", "term_en": "Sensitivity Analysis", "domain": "数学"}, {"term": "政策解释性", "term_en": "Policy Explainability", "domain": "经济学"}]
+  },
+  {
+    "term": "潜变量模型",
+    "term_en": "Latent Variable Model",
+    "domain": "数学",
+    "definition": "包含无法被直接仪器观测测量、只能通过其衍生驱动的显性观测自变量数据进行间接统计推断的数学模型（如因子分析）。",
+    "synonyms": [{"term": "隐含偏好", "term_en": "Implicit Preference", "domain": "经济学"}, {"term": "潜在结构发现", "term_en": "Latent Space", "domain": "AI/ML"}]
+  },
+  {
+    "term": "隐含偏好",
+    "term_en": "Implicit Preference",
+    "domain": "经济学",
+    "definition": "消费者埋藏在心底、无法用简易调查问卷直接准确度量，只能通过其在各大商超的日常真实高频购物账单流水间接挖掘的真实边际效用取向。",
+    "synonyms": [{"term": "潜变量模型", "term_en": "Latent Variable Model", "domain": "数学"}, {"term": "潜在结构发现", "term_en": "Latent Space", "domain": "AI/ML"}]
+  },
+  {
+    "term": "潜在结构发现",
+    "term_en": "Latent Space",
+    "domain": "AI/ML",
+    "definition": "隐空间/潜在空间，神经网络隐藏层的高维嵌入空间，在该空间内原始杂乱的数据点会被高度聚拢、按抽象的内在底层语义特征呈现完美的连续几何分布。",
+    "synonyms": [{"term": "潜变量模型", "term_en": "Latent Variable Model", "domain": "数学"}, {"term": "隐含偏好", "term_en": "Implicit Preference", "domain": "经济学"}]
+  },
+  {
+    "term": "大数定律",
+    "term_en": "Law of Large Numbers",
+    "domain": "数学",
+    "definition": "当随机试验重复独立进行次数极多时，样本观测均值在概率意义上会无限趋近并稳定于总体真实数理期望的定律。",
+    "synonyms": [{"term": "市场均衡趋势", "term_en": "Market Equilibrium Trend", "domain": "经济学"}, {"term": "群体平均效应", "term_en": "Batch Normalization", "domain": "AI/ML"}]
+  },
+  {
+    "term": "市场均衡趋势",
+    "term_en": "Market Equilibrium Trend",
+    "domain": "经济学",
+    "definition": "无数相互独立的消费者和商户通过千万次自由交易博弈，最终驱使行业长期平均成交价无限贴近无套利瓦尔拉斯均衡价的过程。",
+    "synonyms": [{"term": "大数定律", "term_en": "Law of Large Numbers", "domain": "数学"}, {"term": "群体平均效应", "term_en": "Batch Normalization", "domain": "AI/ML"}]
+  },
+  {
+    "term": "群体平均效应",
+    "term_en": "Batch Normalization",
+    "domain": "AI/ML",
+    "definition": "批归一化，在每个前向传播的小批次（Batch）样本中，计算该批数据的均值和方差并强制进行归一化平移，从而维持特征分布稳定并加速训练的工程策略。",
+    "synonyms": [{"term": "大数定律", "term_en": "Law of Large Numbers", "domain": "数学"}, {"term": "市场均衡趋势", "term_en": "Market Equilibrium Trend", "domain": "经济学"}]
+  },
+  {
+    "term": "凸优化",
+    "term_en": "Convex Optimization",
+    "domain": "数学",
+    "definition": "凸集上的凸目标函数極值求解问题，其任何局部最优解都必然是无可辩驳的全局最优解。",
+    "synonyms": [{"term": "效用最大化", "term_en": "Utility Maximization", "domain": "经济学"}, {"term": "损失函数最小化", "term_en": "Loss Minimization", "domain": "AI/ML"}]
+  },
+  {
+    "term": "效用最大化",
+    "term_en": "Utility Maximization",
+    "domain": "经济学",
+    "definition": "理性的微观消费者在面临固定预算线限制时，通过合理配置购买比重以榨取最大心理满足度的消费均衡点选择行为。",
+    "synonyms": [{"term": "凸优化", "term_en": "Convex Optimization", "domain": "数学"}, {"term": "损失函数最小化", "term_en": "Loss Minimization", "domain": "AI/ML"}]
+  },
+  {
+    "term": "损失函数最小化",
+    "term_en": "Loss Minimization",
+    "domain": "AI/ML",
+    "definition": "通过梯度下降算法反向更新神经网络权重参数，使模型预测误差（如均方误差）趋于极小值的参数优化过程。",
+    "synonyms": [{"term": "凸优化", "term_en": "Convex Optimization", "domain": "数学"}, {"term": "效用最大化", "term_en": "Utility Maximization", "domain": "经济学"}]
+  },
+  {
+    "term": "特征向量",
+    "term_en": "Eigenvector",
+    "domain": "数学",
+    "definition": "在线性变换下，其几何延伸方向保持绝对不变、仅在原方向尺度上被拉伸或缩放的非零向量。",
+    "synonyms": [{"term": "主成分", "term_en": "Principal Component", "domain": "经济学"}, {"term": "嵌入方向", "term_en": "Embedding Vector", "domain": "AI/ML"}]
+  },
+  {
+    "term": "主成分",
+    "term_en": "Principal Component",
+    "domain": "经济学",
+    "definition": "通过正交变换（PCA）将一组高度共线的经济指标重新组合成少数几个互不相关、且能最大化保留原始大盘方差信息的新核心指标。",
+    "synonyms": [{"term": "特征向量", "term_en": "Eigenvector", "domain": "数学"}, {"term": "嵌入方向", "term_en": "Embedding Vector", "domain": "AI/ML"}]
+  },
+  {
+    "term": "嵌入方向",
+    "term_en": "Embedding Vector",
+    "domain": "AI/ML",
+    "definition": "嵌入向量/隐向量，将高维非结构化的离散文本符号转化为密集的低维实数连续向量，各维度指向隐空间内不同的抽象语义空间方向。",
+    "synonyms": [{"term": "特征向量", "term_en": "Eigenvector", "domain": "数学"}, {"term": "主成分", "term_en": "Principal Component", "domain": "经济学"}]
+  },
+  {
+    "term": "正则化",
+    "term_en": "Regularization",
+    "domain": "数学",
+    "definition": "在病态或过定方程求解的目标函数中添加一个结构性的范数惩罚项，以限制解向量模长、提升系统抗噪病态能力的数学方法。",
+    "synonyms": [{"term": "风险惩罚项", "term_en": "Risk Penalty Term", "domain": "经济学"}, {"term": "权重衰减", "term_en": "Weight Decay", "domain": "AI/ML"}]
+  },
+  {
+    "term": "风险惩罚项",
+    "term_en": "Risk Penalty Term",
+    "domain": "经济学",
+    "definition": "在资产定价模型中，针对高收益相伴随的高回撤不确定性风险，主动在目标收益期望公式中扣除的风险厌恶度量损失项。",
+    "synonyms": [{"term": "正则化", "term_en": "Regularization", "domain": "数学"}, {"term": "权重衰减", "term_en": "Weight Decay", "domain": "AI/ML"}]
+  },
+  {
+    "term": "权重衰减",
+    "term_en": "Weight Decay",
+    "domain": "AI/ML",
+    "definition": "在损失函数后追加 L2 范数惩罚项，迫使每次梯度下降迭代时权重均受到固定比例的萎缩衰减，从而抑制神经网络过拟合。",
+    "synonyms": [{"term": "正则化", "term_en": "Regularization", "domain": "数学"}, {"term": "风险惩罚项", "term_en": "Risk Penalty Term", "domain": "经济学"}]
+  },
+  {
+    "term": "随机过程",
+    "term_en": "Stochastic Process",
+    "domain": "数学",
+    "definition": "由一族随时间推进而不断演化的、互相存在时间相关性的随机变量所构成的数理统计模型。",
+    "synonyms": [{"term": "资产价格模型", "term_en": "Asset Pricing Model", "domain": "经济学"}, {"term": "数据增强", "term_en": "Data Augmentation Noise", "domain": "AI/ML"}]
+  },
+  {
+    "term": "资产价格模型",
+    "term_en": "Asset Pricing Model",
+    "domain": "经济学",
+    "definition": "利用几何布朗运动或伊藤清引理，对波动起伏的远期股票或期权衍生品价格进行随机演化轨迹推导的经典量化金融模型。",
+    "synonyms": [{"term": "随机过程", "term_en": "Stochastic Process", "domain": "数学"}, {"term": "数据增强", "term_en": "Data Augmentation Noise", "domain": "AI/ML"}]
+  },
+  {
+    "term": "数据增强",
+    "term_en": "Data Augmentation Noise",
+    "domain": "AI/ML",
+    "definition": "在模型训练阶段人为地在音频、图像原始序列中顺延时间步混入特定方差的随机噪声，以拓宽模型的鲁棒样本空间的策略。",
+    "synonyms": [{"term": "随机过程", "term_en": "Stochastic Process", "domain": "数学"}, {"term": "资产价格模型", "term_en": "Asset Pricing Model", "domain": "经济学"}]
+  },
+  {
+    "term": "梯度",
+    "term_en": "Gradient",
+    "domain": "数学",
+    "definition": "多元可微函数在某一点处的全偏导数向量，其精确指向该函数在空间里数值增长速度最快的几何方向。",
+    "synonyms": [{"term": "边际效用", "term_en": "Marginal Utility", "domain": "经济学"}, {"term": "反向传播信号", "term_en": "Backpropagation Signal", "domain": "AI/ML"}]
+  },
+  {
+    "term": "边际效用",
+    "term_en": "Marginal Utility",
+    "domain": "经济学",
+    "definition": "消费者每额外多消费或消耗一单位的某种商品时，其总心理满足度曲线（效用函数）所带来的那一缕微小增量变动率。",
+    "synonyms": [{"term": "梯度", "term_en": "Gradient", "domain": "数学"}, {"term": "反向传播信号", "term_en": "Backpropagation Signal", "domain": "AI/ML"}]
+  },
+  {
+    "term": "反向传播信号",
+    "term_en": "Backpropagation Signal",
+    "domain": "AI/ML",
+    "definition": "多层神经网络依据微积分链式法则，将最终预测误差由最后一层逆向往回层层传导至第一层的参数梯度敏感度信号。",
+    "synonyms": [{"term": "梯度", "term_en": "Gradient", "domain": "数学"}, {"term": "边际效用", "term_en": "Marginal Utility", "domain": "经济学"}]
+  },
+  {
+    "term": "贝叶斯推断",
+    "term_en": "Bayesian Inference",
+    "domain": "数学",
+    "definition": "依据最新观测到的一组条件样本样本数据，通过贝叶斯定理更新并校正某一事件初始原有先验概率分布的数理推断方法。",
+    "synonyms": [{"term": "贝叶斯博弈", "term_en": "Bayesian Game", "domain": "经济学"}, {"term": "概率生成模型", "term_en": "VAE / Generative Model", "domain": "AI/ML"}]
+  },
+  {
+    "term": "贝叶斯博弈",
+    "term_en": "Bayesian Game",
+    "domain": "经济学",
+    "definition": "非完全信息博弈，参与者无法看透对手的真实生产成本或底牌类型，只能依据其在局中的出牌行为不断动态刷新对其人设的贝叶斯先验猜测概率。",
+    "synonyms": [{"term": "贝叶斯推断", "term_en": "Bayesian Inference", "domain": "数学"}, {"term": "概率生成模型", "term_en": "VAE / Generative Model", "domain": "AI/ML"}]
+  },
+  {
+    "term": "概率生成模型",
+    "term_en": "VAE / Generative Model",
+    "domain": "AI/ML",
+    "definition": "变分自编码器，通过显式学习潜在隐变量的连续高斯概率先验分布，能够自发采样并创造出全新逼真样本数据的概率深度网络。",
+    "synonyms": [{"term": "贝叶斯推断", "term_en": "Bayesian Inference", "domain": "数学"}, {"term": "贝叶斯博弈", "term_en": "Bayesian Game", "domain": "经济学"}]
+  },
+  {
+    "term": "鞍点",
+    "term_en": "Saddle Point",
+    "domain": "数学",
+    "definition": "多元函数曲面上的一类驻点，在某些正交坐标切线方向上它是局部极大值点，而在其余正交坐标轴切面方向上它是局部极小值点。",
+    "synonyms": [{"term": "纳什均衡", "term_en": "Nash Equilibrium", "domain": "经济学"}, {"term": "GAN训练均衡点", "term_en": "GAN Minimax Equilibrium", "domain": "AI/ML"}]
+  },
+  {
+    "term": "纳什均衡",
+    "term_en": "Nash Equilibrium",
+    "domain": "经济学",
+    "definition": "非合作博弈中的一类状态组合，在此状态下，任何一个理性决策者在预知对手当前出牌的前提下，都无法通过单方面悄悄变更个人策略来榨取更大油水。",
+    "synonyms": [{"term": "鞍点", "term_en": "Saddle Point", "domain": "数学"}, {"term": "GAN训练均衡点", "term_en": "GAN Minimax Equilibrium", "domain": "AI/ML"}]
+  },
+  {
+    "term": "GAN训练均衡点",
+    "term_en": "GAN Minimax Equilibrium",
+    "domain": "AI/ML",
+    "definition": "生成对抗网络训练的终局极小极大化博弈终点，此时生成器制造假货的能力炉火纯青，而判别器对两者的鉴别判定概率死死卡在0.5非清醒状态。",
+    "synonyms": [{"term": "鞍点", "term_en": "Saddle Point", "domain": "数学"}, {"term": "纳什均衡", "term_en": "Nash Equilibrium", "domain": "经济学"}]
+  },
+  {
+    "term": "KL散度",
+    "term_en": "Kullback-Leibler Divergence",
+    "domain": "数学",
+    "definition": "用来量化和度量两个概率分布 $P$ 和 $Q$ 之间不相似和几何距离程度的非对称统计无监督指标。",
+    "synonyms": [{"term": "信息价值", "term_en": "Value of Information", "domain": "经济学"}, {"term": "交叉熵损失", "term_en": "Cross-Entropy Loss", "domain": "AI/ML"}]
+  },
+  {
+    "term": "信息价值",
+    "term_en": "Value of Information",
+    "domain": "经济学",
+    "definition": "经济决策主体为了消除宏观不确定性，在掏钱买商业咨询报告前与买完报告后，自身知识状态概率分布熵减所带来的跨期期望收益期望差额。",
+    "synonyms": [{"term": "KL散度", "term_en": "Kullback-Leibler Divergence", "domain": "数学"}, {"term": "交叉熵损失", "term_en": "Cross-Entropy Loss", "domain": "AI/ML"}]
+  },
+  {
+    "term": "交叉熵损失",
+    "term_en": "Cross-Entropy Loss",
+    "domain": "AI/ML",
+    "definition": "分类神经网络中最核心的损失函数，其本质是由真实标签分布与模型预测条件分布之间的 KL 散度精简推导而来，用于惩罚模型的偏离预测。",
+    "synonyms": [{"term": "KL散度", "term_en": "Kullback-Leibler Divergence", "domain": "数学"}, {"term": "信息价值", "term_en": "Value of Information", "domain": "经济学"}]
+  },
+  {
+    "term": "拓扑同构",
+    "term_en": "Topological Isomorphism",
+    "domain": "数学",
+    "definition": "两个拓扑空间之间存在双射、且双向均连续的同胚映射结构，意味着两者具备一模一样的底层几何拉伸不变形连通性质。",
+    "synonyms": [{"term": "产业同质化", "term_en": "Industrial Homogeneity", "domain": "经济学"}, {"term": "对齐表征空间", "term_en": "Latent Space Alignment", "domain": "AI/ML"}]
+  },
+  {
+    "term": "产业同质化",
+    "term_en": "Industrial Homogeneity",
+    "domain": "经济学",
+    "definition": "不同垂直细分领域或不同省份的经济体，在不谋而合地采取完全一致的生产流程、供应链和产品架构时表现出的产业结构严重重叠重合现象。",
+    "synonyms": [{"term": "拓扑同构", "term_en": "Topological Isomorphism", "domain": "数学"}, {"term": "对齐表征空间", "term_en": "Latent Space Alignment", "domain": "AI/ML"}]
+  },
+  {
+    "term": "对齐表征空间",
+    "term_en": "Latent Space Alignment",
+    "domain": "AI/ML",
+    "definition": "多模态大模型（如CLIP）通过对比学习损失函数，强行拉近对应图像特征向量和对应文本特征向量在隐空间内的几何距离，使中英或图文拥有等价语义分布维度的技术。",
+    "synonyms": [{"term": "拓扑同构", "term_en": "Topological Isomorphism", "domain": "数学"}, {"term": "产业同质化", "term_en": "Industrial Homogeneity", "domain": "经济学"}]
+  },
+  {
+    "term": "自相似分形",
+    "term_en": "Self-Similar Fractal",
+    "domain": "数学",
+    "definition": "一个几何结构在空间尺度上不断按比例等额缩小或放大时，其局部的细微几何轮廓依然表现出与整体宏观轮廓高度雷同的自相似拓扑现象。",
+    "synonyms": [{"term": "长尾市场分布", "term_en": "Long-tail Market Distribution", "domain": "经济学"}, {"term": "零样本泛化能力", "term_en": "Zero-shot Extrapolation", "domain": "AI/ML"}]
+  },
+  {
+    "term": "长尾市场分布",
+    "term_en": "Long-tail Market Distribution",
+    "domain": "经济学",
+    "definition": "金融市场中资产收益率或互联网商业中商品成交量极其不遵循正态分布，而是表现出幂律长尾、局部暴利模式在微观各个垂直利基赛道反复自相似上演的特征。",
+    "synonyms": [{"term": "自相似分形", "term_en": "Self-Similar Fractal", "domain": "数学"}, {"term": "零样本泛化能力", "term_en": "Zero-shot Extrapolation", "domain": "AI/ML"}]
+  },
+  {
+    "term": "零样本泛化能力",
+    "term_en": "Zero-shot Extrapolation",
+    "domain": "AI/ML",
+    "definition": "大语言模型无需进行任何针对微观长尾下游垂类场景的局部微调权重更新，就能直接凭借底层通用的海量表征自相似地去破解陌生领域的泛化应变能力。",
+    "synonyms": [{"term": "自相似分形", "term_en": "Self-Similar Fractal", "domain": "数学"}, {"term": "长尾市场分布", "term_en": "Long-tail Market Distribution", "domain": "经济学"}]
+  },
+  {
+    "term": "自由度限制",
+    "term_en": "Degrees of Freedom Restriction",
+    "domain": "数学",
+    "definition": "在估计矩阵统计总体参数时，由于施加了若干个恒等方程约束约束，导致样本观测值集合中能够真正自由独立变更的变量数目的缩减。",
+    "synonyms": [{"term": "资本流动壁垒", "term_en": "Capital Flow Barriers", "domain": "经济学"}, {"term": "低秩自适应微调", "term_en": "LoRA / Parameter Freeze", "domain": "AI/ML"}]
+  },
+  {
+    "term": "资本流动壁垒",
+    "term_en": "Capital Flow Barriers",
+    "domain": "经济学",
+    "definition": "由于跨国资本管制、跨境反洗钱高额印花税约束，导致社会资本无法在各大类金融资产间进行绝对自由的最优套利流动的行政自由度卡口限制。",
+    "synonyms": [{"term": "自由度限制", "term_en": "Degrees of Freedom Restriction", "domain": "数学"}, {"term": "低秩自适应微调", "term_en": "LoRA / Parameter Freeze", "domain": "AI/ML"}]
+  },
+  {
+    "term": "低秩自适应微调",
+    "term_en": "LoRA / Parameter Freeze",
+    "domain": "AI/ML",
+    "definition": "大模型微调技术，冻结住基座模型原本百亿级的主干权重参数矩阵（限制其自由度变动），仅仅通过外挂两个极低物理秩的极小的旁路低秩矩阵来专门捕捉下游垂直数据的自适应微调策略。",
+    "synonyms": [{"term": "自由度限制", "term_en": "Degrees of Freedom Restriction", "domain": "数学"}, {"term": "资本流动壁垒", "term_en": "Capital Flow Barriers", "domain": "经济学"}]
+  },
+  {
+    "term": "遍历性定理",
+    "term_en": "Ergodic Theorem",
+    "domain": "数学",
+    "definition": "平稳随机过程中，只要时间拉得足够长，某个单一样本轨迹的时间平均值在概率意义上必然与整体系统的所有样本统计空间系综平均值完美相等的数理基石定理。",
+    "synonyms": [{"term": "理性预期假设", "term_en": "Rational Expectations Hypothesis", "domain": "经济学"}, {"term": "数据洗牌重洗", "term_en": "Dataset Shuffling", "domain": "AI/ML"}]
+  },
+  {
+    "term": "理性预期假设",
+    "term_en": "Rational Expectations Hypothesis",
+    "domain": "经济学",
+    "definition": "新古典宏观经济学基石，假定市场上的所有微观个体在长线决策时都能完美利用已有全部大盘信息，其个体对未来的主观跨期心理预期均值与经济系统真实的客观数理期望相吻合。",
+    "synonyms": [{"term": "遍历性定理", "term_en": "Ergodic Theorem", "domain": "数学"}, {"term": "数据洗牌重洗", "term_en": "Dataset Shuffling", "domain": "AI/ML"}]
+  },
+  {
+    "term": "数据洗牌重洗",
+    "term_en": "Dataset Shuffling",
+    "domain": "AI/ML",
+    "definition": "在每个训练纪元(Epoch)开始前，通过强行打乱和彻底重新洗牌海量样本集的内部排序，确保神经网络在小批次随机梯度下降中，每个 Batch 的局部期望都绝对无偏地遍历并代表整体总体分布的工程操作。",
+    "synonyms": [{"term": "遍历性定理", "term_en": "Ergodic Theorem", "domain": "数学"}, {"term": "理性预期假设", "term_en": "Rational Expectations Hypothesis", "domain": "经济学"}]
+  },
+  {
+    "term": "耗散结构",
+    "term_en": "Dissipative Structure",
+    "domain": "数学",
+    "definition": "一个远离热力学非平衡态的开放数学系统，通过源源不断地与外部界域交换能量、物质或负熵，从而可以在原本杂乱无章的混沌系统中自发自组织维持出高度井然有序的稳定宏观构型。",
+    "synonyms": [{"term": "产业生态集聚", "term_en": "Industrial Cluster Ecology", "domain": "经济学"}, {"term": "非最大化抑制剪枝", "term_en": "Dropout / Softmax Sparsification", "domain": "AI/ML"}]
+  },
+  {
+    "term": "产业生态集聚",
+    "term_en": "Industrial Cluster Ecology",
+    "domain": "经济学",
+    "definition": "硅谷或深圳南山区等高新垂直科技中心，通过吸引全球资本、高校科研成果以及物流负熵流的不间断交互，在方圆几公里内形成高能、有序且具备极高核心技术壁垒的产业集群奇迹。",
+    "synonyms": [{"term": "耗散结构", "term_en": "Dissipative Structure", "domain": "数学"}, {"term": "非最大化抑制剪枝", "term_en": "Dropout / Softmax Sparsification", "domain": "AI/ML"}]
+  },
+  {
+    "term": "非最大化抑制剪枝",
+    "term_en": "Dropout / Softmax Sparsification",
+    "domain": "AI/ML",
+    "definition": "在网络前向训练时，通过随机无情地剪断并让部分比例的隐藏神经元输出置零（耗散稀疏化），迫使神经网络放弃对个别强特征的死板依赖，从而自发在内部组织并涌现出鲁棒性极强的分布式泛化内部拓扑结构的工程手段。",
+    "synonyms": [{"term": "耗散结构", "term_en": "Dissipative Structure", "domain": "数学"}, {"term": "产业生态集聚", "term_en": "Industrial Cluster Ecology", "domain": "经济学"} ]
+  }
+]
